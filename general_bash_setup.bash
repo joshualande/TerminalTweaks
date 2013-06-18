@@ -6,7 +6,7 @@ function setup_terminal_tweaks {
     export FIGNORE=.svn 
 
     # I like this simple prompt
-    export PS1="\W $ "
+    export PS1="\h:\W $ "
 
     # vi like navigation of command line.
     set -o vi 
