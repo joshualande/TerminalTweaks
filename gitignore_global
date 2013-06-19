@@ -1,0 +1,7 @@
+# List of temporary files for git to ignore.
+# Note, to make github include this file, symbolic link
+# .gitignore_global to this file, and then run:
+#   $ git config --global core.excludesfile ~/.gitignore_global
+*.pyc
+*.swp
+.DS_Store
