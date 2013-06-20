@@ -133,3 +133,7 @@ set autoindent
 set smartcase
 set ignorecase
 
+" Override tab settings for html
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
+" Also, override tab settings for Flask template files (called htmldjango)
+autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2 softtabstop=2
