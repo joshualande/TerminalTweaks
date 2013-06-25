@@ -1,14 +1,14 @@
 [user]
+    # Username and password for me
 	name = Joshua Lande
 	email = joshualande@gmail.com
 [color]
+    # Use color when writing to the terminal, but not to other 
+    # output devices
     ui = auto
-[color]
-    ui = true
 [color "diff"]
+    # This makes changed white space in the 'git diff' red
     whitespace = red reverse
 [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-    quotepath = false
-    excludesfile = /Users/george/.gitignore
+    # use vim as my editor :)
     editor = /usr/bin/vim
