@@ -25,7 +25,7 @@ function setup_general_aliases {
     alias rm="rm -iv" # warn before removing & verbose
     alias mv="mv -fi"
     alias cp="cp -afi"
-    alias l="ls -color" # print out size next to each of them
+    alias l="ls -G" # print out size next to each of them
     alias duh='du -h --max-depth=1' # human readable and not recursive
     alias grep='grep -i'
 
