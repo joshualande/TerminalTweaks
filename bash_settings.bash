@@ -5,9 +5,6 @@ function setup_terminal_tweaks {
     # http://blog.pclewis.com/2010/03/tip-make-bash-tab-completion-ignore-svn-directories/
     export FIGNORE=.svn 
 
-    # I like this simple prompt
-    export PS1="\h:\W $ "
-
     # vi like navigation of command line.
     set -o vi 
 
