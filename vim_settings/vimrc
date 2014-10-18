@@ -1,4 +1,8 @@
 " Joshua Lande's custom vim configurations
+
+
+execute pathogen#infect()
+
 "
 " Enable vim enhancements not compatable with vi
 set nocompatible

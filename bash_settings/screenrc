@@ -8,3 +8,5 @@ caption always "%{= kc}windows: %?%-Lw%?%{= kY}%n*%f %t%?(%u)%?%{= kc}%?%+Lw%?"
 # gunk behind after exiting.
 # (https://news.ycombinator.com/item?id=1710719)
 altscreen on
+
+defscrollback 30000
