@@ -10,3 +10,9 @@ caption always "%{= kc}windows: %?%-Lw%?%{= kY}%n*%f %t%?(%u)%?%{= kc}%?%+Lw%?"
 altscreen on
 
 defscrollback 30000
+
+# disable splash screen
+startup_message off
+
+# Preserve the current shell, stops the prompt from changing.
+shell -$SHELL
